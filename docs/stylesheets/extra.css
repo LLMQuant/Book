@@ -1,0 +1,63 @@
+/* ============================================================================
+   LLMQuant Brand Colors
+   Primary: Brick Red (#A33B2C) - from logo
+   Accent: Amber/Gold (#E5A647) - from logo
+   ============================================================================ */
+
+/* Custom primary color (brick red) */
+:root > * {
+  --md-primary-fg-color:        #A33B2C;
+  --md-primary-fg-color--light: #C4655A;
+  --md-primary-fg-color--dark:  #7D2D21;
+}
+
+/* Custom accent color (amber/gold) */
+:root > * {
+  --md-accent-fg-color:         #D4942E;
+  --md-accent-fg-color--transparent: rgba(212, 148, 46, 0.1);
+}
+
+/* Dark mode adjustments for better contrast */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #C4655A;
+  --md-primary-fg-color--light: #D4857A;
+  --md-primary-fg-color--dark:  #A33B2C;
+  --md-accent-fg-color:         #E5A647;
+  --md-accent-fg-color--transparent: rgba(229, 166, 71, 0.1);
+}
+
+/* ============================================================================
+   Footer Styling
+   ============================================================================ */
+
+/* 减少底部导航区域（上一页/下一页）的高度 */
+.md-footer__inner {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+/* 减少底部版权区域的高度 */
+.md-footer-meta {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.md-footer-meta__inner {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+/* 减少导航链接的内边距 */
+.md-footer__link {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+/* 可选：让字体稍小一些，进一步节省空间 */
+.md-footer__title {
+    font-size: 0.9rem;
+}
+
+.md-footer__direction {
+    font-size: 0.7rem;
+}

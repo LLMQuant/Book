@@ -1,3 +1,7 @@
+---
+icon: lucide/book-open
+---
+
 # **参考文献**
 
 \[1\] Araci D. FinBERT: Financial Sentiment Analysis with Pre-trained
