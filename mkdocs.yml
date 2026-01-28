@@ -1,0 +1,30 @@
+site_name: LLMQuant Book
+site_url: "https://llmquant.github.io/Book/"
+docs_dir: docs
+theme:
+  name: material
+  logo: assets/logo-b.png
+  favicon: assets/logo-b.png
+markdown_extensions:
+  - tables
+  - attr_list
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Introduction: 前言.md
+  - Chapter 1: 01-人工智能在量化金融中的应用与趋势.md
+  - Chapter 2: 02-数据是量化交易+人工智能的血液.md
+  - Chapter 3: 03-情感分析可以作为量化交易的因子吗.md
+  - Chapter 4: 04-量化交易中的机器学习.md
+  - Chapter 5: 05-量化实战不尽如意吗.md
+  - Chapter 6: 06-端事件下人工智能模型的抗风险能力.md
+  - Chapter 7: 07-LLM智能体在量化金融中的应用与未来.md
+  - References: reference.md
+
