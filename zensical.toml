@@ -7,7 +7,7 @@
 
 # Site metadata
 site_name = "LLMQuant Book"
-site_url = "https://llmquant.github.io/Book/"
+site_url = "https://llmquant.github.io/llmquant-book/"
 site_description = "人工智能与量化金融"
 site_author = "LLMQuant"
 
@@ -15,8 +15,8 @@ site_author = "LLMQuant"
 docs_dir = "docs"
 
 # Repository configuration
-repo_name = "LLMQuant/Book"
-repo_url = "https://github.com/LLMQuant/Book"
+repo_name = "LLMQuant/llmquant-book"
+repo_url = "https://github.com/LLMQuant/llmquant-book"
 
 # Copyright notice
 copyright = """
