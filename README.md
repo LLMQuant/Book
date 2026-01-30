@@ -1,7 +1,7 @@
 # 一本书读懂：人工智能时代的量化交易  
 中文 | English（Coming Soon）
 
-📖 在线阅读（MkDocs）：https://llmquant.github.io/Book/
+📖 在线阅读（MkDocs）：[https://llmquant.github.io/Book/](https://llmquant.github.io/llmquant-book/)
 
 ---
 
